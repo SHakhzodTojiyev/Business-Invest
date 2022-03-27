@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  width: 100%;
+  height: max-content;
+  background-color: #ffffff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.main {
+  width: 100%;
+  height: max-content;
+  padding-top: 98px;
+}
+
+.contact__section {
+  display: none;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  font-family: "Regular";
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 200;
+}
+.contact__section.show {
+  display: flex;
+
+  transition: all 0.3s ease-in-out;
+}
+.phone {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 176px;
+  height: 353px;
+  background: #fff url("../images/phone.png") no-repeat center/cover;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 20px;
+}
+.phone a {
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 18px;
+  color: #fff;
+  font-family: "Regular";
+  margin: 5px 0;
+  background-color: #47dea8;
+  border-radius: 4px;
+}
+.phone a i {
+  margin-right: 5px;
+}
+.phone button {
+  position: absolute;
+  bottom: 23px;
+  left: 11px;
+  padding: 10px 15px;
+  width: 155px;
+  outline: none;
+  border: none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #1283d6;
+}
+
+.form__section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url("../images/cover.png") center center no-repeat;
+  background-size: cover;
+}

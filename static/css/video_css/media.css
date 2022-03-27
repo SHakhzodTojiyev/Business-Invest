@@ -1,0 +1,46 @@
+@media(max-width: 1200px){
+    .video__comment{
+        margin-top: 0;
+    }
+}
+@media(max-width: 992px){
+    .introduction__text{
+        width: 100%;
+    }
+    .video{
+        width: 100%;
+    }
+    .video__iframe{
+        height: 70vh;
+    }
+    .buy{
+        width: 100%;
+        padding: 0;
+        margin-top: 15px;
+    }
+    .video__comment{
+        width: 100%;
+        margin-top: 0;
+    }
+}
+@media(max-width: 576px){
+    .introduction__title{
+        margin: 15px;
+    }
+    .introduction__text{
+        margin: 15px;
+        width: 95%;
+    }
+    .video{
+        margin: 15px;
+    }
+    .video__iframe{
+        height: 50vh;
+    }
+    .buy{
+       margin: 15px;
+    }
+    .video__comment{
+        margin: 15px;
+    }
+}

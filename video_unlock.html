@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Box Icon -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./static/css/style.css">
+    <link rel="stylesheet" href="./static/css/header.css">
+    <link rel="stylesheet" href="./static/css/footer.css">
+    <link rel="stylesheet" href="./static/css/video_css/bootstrap.min.css">
+    <link rel="stylesheet" href="./static/css/video_css/style.css">
+    <link rel="stylesheet" href="./static/css/video_css/media.css">
+</head>
+<body>
+    <header class="header">
+        <!-- Header Brand Item -->
+        <div class="brand">
+            <a href="./index.html"><img src="./static/images/logo-dark.png" alt="Logo"></a>
+        </div>
+        <!-- Header Nav Items -->
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index.html">Asosiy</a>
+                </li>
+                <li>
+                    <a href="./courses.html">Kurslar</a>
+                </li>
+                <li>
+                    <a href="./news.html">Yangiliklar</a>
+                </li>
+                <li>
+                    <a id="contact" href="#contact">Aloqa</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Header Close Button -->
+        <div class="menu__button">
+            <div class="menu__button__burger"></div>
+        </div>
+    </header>
+
+        <main class="main">
+                     <!-- CONTACT SECTION -->
+        <section class="contact__section">
+            <!-- CONTACT SECTION -->
+
+            <div class="phone">
+                <a target="_blank" href="https://t.me/business_investuz"><i class='bx bxl-telegram'></i>Telegram</a>
+                <a target="_blank" href="https://facebook.com/Businessinvestuz"><i class='bx bxl-facebook-square'></i>Facebook</a>
+                <a target="_blank" href="http://www.instagram.com/business_investuz"><i class='bx bxl-instagram-alt'></i>Instagram</a>
+                <button id="close_phone">Chiqish</button>
+            </div>
+        </section>
+            <div class="container">
+                <div class="row">
+                    <div class="introduction">    
+                        <h2 class="introduction__title">Introduction</h2>
+                        <p class="introduction__text">Sara explains the importance of dedicated thinking time for developing your idea. Learn how to filter your ideas, how to differentiate yourself from your competitors, and when to patent your ideas.</p>
+                    </div>
+                    <div class="video">
+                        <iframe class="video__iframe" src="https://www.youtube.com/embed/VDPLmxgXPl0?controls=0">
+                        </iframe>
+                    </div>
+                    <div class="buy">
+                        <div class="buys">
+                            <h3 class="buys__title">To unlock all lessons buy now</h3>
+                            <div class="price">
+                                <p class="price__text">Price:</p>
+                                <p class="price__num">$125</p>
+                            </div>
+                            <button class="buy__button">BUY</button>
+                        </div>
+                        <div class="plan">
+                            <h3 class="plan__title">LESSON PLAN</h3>
+                            <a href="#" class="plan__video">
+                                <div class="line"></div>
+                                <i class='bx bx-play-circle'></i>
+                                <h4 class="plan__video-text">01. Introduction</h4>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="video__comment">
+                        <h2 class="video__title">Comments</h2>
+                        <ul class="comments" id="comment_lists">
+                            <li id="comment_list" class="comment">
+                                <div class="person">
+                                    <img class="person__img" src="./static/images/Ellipse.png" alt="">
+                                    <h4 class="person__title"> Nooshin A.</h4>
+                                </div>
+                                <p class="comment__text">I have watched some of the courses, but this one was awesome and the best. I wish she helps me in my journey. I aim very high, but without any support. I just have universe support. I know I don't give up. Thanks for sharing this video.</p>
+                            </li>
+                        </ul>    
+                        
+                        <form class="publish" id="comment">
+                            <textarea id="input_comment" class="publish__text">Add a public comment...</textarea>
+                            <input id="input_comment_button" class="publish__button" type="button" value="COMMENT">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- FOOTER SECTION -->
+    <footer class="footer">
+      <div class="footer__container">
+           <div class="footer__logo">
+               <img src="./static/images/logo-white.png" alt="Logo">
+           </div>
+            <ul class="footer__list">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">News</a>
+                </li>
+                <li>
+                    <a href="#courses">Corses</a>
+                </li>
+                <li>
+                    <a href="#team">Team</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+           <div class="footer__icons">
+               <a href="#"><i class='bx bxl-facebook-square'></i></a>
+               <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+               <a href="#"><i class='bx bxl-telegram'></i></a>
+           </div>
+      </div>
+      <h3>Copyright 2021 BUSINESS INVEST All rights reserved</h3>
+    </footer>
+    <script src="./static/js/main.js"></script>
+    <script src="./static/js/video_js/script.js"></script>
+</body>
+</html>
+

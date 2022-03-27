@@ -1,0 +1,84 @@
+.courses {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    padding: 5vw 0;
+    background-color: #FFFFFF;
+}
+.courses__container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1vw;
+}
+.courses__info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 3vw 0 3vw;
+}
+.courses__info .courses__title {
+    font-size: 28px;
+    font-family: 'Bold';
+    color: #111;
+}
+.courses__info .courses__link {
+    color: #AFAFAF;
+}
+.courses__item {
+    width: 300px;
+    padding: 10px;
+    margin: 20px 15px;
+    border-radius: 5px;
+    background-color: #F5F5F5;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    transition: all 0.3s ease-in-out;
+}
+.courses__item:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.courses__item__photo,
+.courses__item__title,
+.courses__item__description,
+.ourses__item__button {
+    width: 100%;
+}
+.courses__item__photo img {
+    width: 100%;
+}
+.courses__item__title {
+    font-size: 18px;
+    font-family: 'bld';
+    color: #111;
+    padding: 10px 0;
+}
+.courses__item__description {
+    font-size: 16px;
+    font-family: 'Regular';
+    color: #111;
+    padding: 10px 0;
+}
+.ourses__item__button {
+    margin: 20px 0;
+}
+.ourses__item__button a {
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'bold';
+    color: #111;
+    border: 1px solid #111;
+}
+.courses__next {
+    width: 100%;
+    padding: 0 2vw;
+    text-align: end;
+}
+.courses__next a {
+    width: 97px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #111;
+    color: #111;
+}

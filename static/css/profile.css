@@ -1,0 +1,158 @@
+.profile {
+    width: 100%;
+    height: max-content;
+    margin-bottom: 25px;
+    border: 5px solid red;
+}
+.profile__title {
+    width: 100%;
+    padding: 3vw;
+}
+.profile__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 3vw;
+}
+.profile__sidebar {
+   width: 300px;
+   padding: 1vw;
+   margin-right: 25px;
+}
+.my__courses  {
+    width: 100%;
+padding: 15px;
+border-right: 5px solid #111;
+}
+.my__courses a {
+    display: block;
+    width: 100%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #111;
+}
+.edit__profile {
+width: 100%;
+padding: 15px;
+border-right: 5px solid #1283D6;
+}
+.edit__profile a {
+    display: block;
+    width: 100%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #111;
+}
+.user__log__out a {
+    display: block;
+    width: 100%;
+padding: 15px;
+margin-top: 45px;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+color: #0073FF;
+}
+
+
+.user__input {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+}
+.change__user__name,
+.change__user__password {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+}
+.change__user__name {
+    margin-bottom: 23px;
+}
+.change__user__password {
+    margin-top: 23px;
+}
+.user__name__inputs,
+.user__password__inputs {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.user__name__inputs input,
+.user__password__inputs input {
+   width: 285px;
+   height: 41px;
+   padding: 1vw;
+   outline: none;
+   border-radius: 4px;
+   border: 1px solid #111;
+}
+.user__name__inputs input:focus,
+.user__password__inputs input:focus {
+    border: 1px solid #1283D6;
+}
+.user__name__inputs :nth-child(1),
+.user__password__inputs :nth-child(1){
+    margin-right: 30px;
+}
+.change__user__name p,
+.change__user__password p {
+    margin-bottom: 10px;
+    font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+color: #000000;
+}
+.user__button {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1vw;
+}
+.user__button button {
+    display: block;
+padding: 10px 15px;
+line-height: 0.5;
+border: 1px solid #1283D6;
+border-radius: 4px;
+cursor: pointer;
+}
+.user__button button:nth-child(1) {
+    margin-right: 15px;
+    background: transparent;
+}
+.user__button button:nth-child(2) {
+    background: #1283D6;
+}
+
+@media screen and (max-width: 769px) {
+    .profile__container {
+      flex-direction: column;
+      align-items: center;
+    }
+    .user__info {
+        flex-direction: column;
+    }
+
+    .user__name__inputs,
+.user__password__inputs {
+   flex-direction: column;
+}
+.user__name__inputs input,
+.user__password__inputs input {
+   margin: 10px 0;
+}
+.user__button {
+    padding-right: 5vw;
+}
+.user__info__avatar {
+    margin: 20px 0;
+}
+}

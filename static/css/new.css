@@ -1,0 +1,21 @@
+.news{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 105px;
+}
+.title{
+    font-size: 25px;
+    line-height: 30px;
+    margin: 20px 0;
+}
+.line{
+    width: 75px;
+    height: 5px;
+    background: #1283D6;
+    margin-bottom: 30px;
+}
+.text{
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
